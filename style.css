@@ -130,16 +130,30 @@
   }
 
   .about p { color: var(--muted); font-size: 15px; }
-
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 32px 0 48px;
+  .about-inner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
+    gap: 24px;
+    align-items: flex-start;
   }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
   footer span { font-size: 13px; color: var(--muted); }
   .footer-links { display: flex; gap: 20px; }
   .footer-links a { font-size: 13px; color: var(--muted); }
