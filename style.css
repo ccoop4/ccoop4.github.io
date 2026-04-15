@@ -136,7 +136,7 @@
   .about-inner {
     display: flex;
     gap: 24px;
-    align-items: stretch;
+    align-items: center;
   }
 
   .profile-pic {
